@@ -28,7 +28,7 @@ class TestBasicOperations:
         assert subtract(-5, -3) == -2
         assert subtract(-10, -4) == -6
 
-        
+class TestMultiplyDivide:       
     def test_multiply_by_zero(self):
         """Test multiplying by zero """
         assert multiply(5,0) == 0
@@ -36,8 +36,8 @@ class TestBasicOperations:
         
     def test_multiply_positive_numbers(self):
         """Test multiply positive numbers"""
-        assert multiply(2, 3) == 6
-        assert multiply(4, 5) == 20
+        assert multiply(3, 4) == 12
+        assert multiply(7, 8) == 56
 
     def test_multiply_negative_numbers(self):
         """Test multiply negative numbers"""
@@ -53,7 +53,10 @@ class TestBasicOperations:
         """Test dividing negtive numbers"""
         assert dSivide(-10, 3) == -5
         assert divide(-12, -3) == 4
-    
+
+   
+
+   
 
 class TestMultiplyDivideWithValidation:
     """Test multiplication and division with input validation."""
